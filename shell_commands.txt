@@ -1,0 +1,12 @@
+
+/Users/mauro/UACCMET2J/Group project/People
+
+Mauros-MacBook-Pro:People mauro$ grep -r "basketball player" . | grep "ontology/weight" | grep "ontology/height" | grep "birthDate" | grep -v 'female'| grep -v 'woman'| grep -v 'women | grep -v "Woman" > ../basketball_date.json
+
+Mauros-MacBook-Pro:People mauro$ grep -r "volleyball player" . | grep "ontology/weight" | grep "ontology/height" | grep "birthDate" | grep -v "female" | grep -v "woman" | grep -v "women" | grep -v "Woman" > ../basketball_date.json
+
+Mauros-MacBook-Pro:People mauro$ grep -r "ice hockey player" . | grep "ontology/weight" | grep "ontology/height" | grep "birthDate" | grep -v "female" | grep -v "woman" | grep -v "women" | grep -v "Woman" > ../basketball_date.json
+
+Mauros-MacBook-Pro:People mauro$ grep -r "boxer" . | grep "ontology/weight" | grep "ontology/height" | grep "birthDate" | grep -v "female" | grep -v "woman" | grep -v "women" | grep -v "Woman" > ../boxer_date.json
+
+Mauros-MacBook-Pro:People mauro$ grep -r "rugby player" . | grep "ontology/weight" | grep "ontology/height" | grep "birthDate" | grep -v "female" | grep -v "woman" | grep -v "women" | grep -v "Woman" > ../rugby_date.json
